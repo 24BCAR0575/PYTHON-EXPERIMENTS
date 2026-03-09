@@ -1,0 +1,116 @@
+Question 1:Demonstrate Various Data Types and Operators in Python
+
+
+Algorithm
+
+Step 1: Start the program.
+
+Step 2: Declare two variables a = 10 and b = 5.
+
+Step 3: Print and check some basic mathematical equations using these variables.
+
+Step 4: Perform bitwise operations like AND (&), OR (|), and XOR (^) and display the results.
+
+Step 5: Show how addition can be done using bitwise operators and print the result.
+
+Step 6: Show how subtraction can be done using bitwise operators and print the result.
+
+Step 7: Declare two more variables c = 20 and d = 15 and perform arithmetic operations like addition, subtraction, multiplication, division, and modulus.
+
+Step 8: Declare variables e = 30 and f = 20 and perform relational operations such as >, <, ==, and !=.
+
+Step 9: Display all the outputs on the screen.
+
+Step 10: End the program.
+
+
+Code:
+
+#AIM:Demonstrate Various Data Types And Operators In Python.
+a=10
+b=5
+print("\nEquation Assignment Operators:\n")
+print((a+b)**2==(a**2+2*(a*b)+b**2))
+print((a-b)**2==a**2-2*(a*b)+b**2)
+print((a+b)*(a+b)==2*(a**2-b**2))
+print((a+b)*(a-b)==a**2-b**2)
+print(a**3+b**3==(a+b)*(a**2-a*b+b**2))
+
+print("\nBitwise Operators:\n")
+print((a|b)==(a^b)+(a&b))
+print(a^(a&b)==(a|b)^b)
+print(b^(a&b)==(a|b)^a)
+print((a&b)^(a|b)==(a^b))
+
+print("\nAddition using bitwise operators:\n")
+print((a+b)==(a|b)+(a&b))
+print((a+b)==(a^b)+2*(a&b))
+
+print("\nSubtraction using bitwise operators:\n")
+print((a-b)==(a^(a&b))-((a|b))^a)
+print((a-b)==((a|b)^b)-((a|b))^a)
+print((a-b)==(a^(a&b))-(b^(a&b)))
+print((a-b)==((a|b)^b)-(b^(a&b)))
+
+print("\nArithmetic Operators:\n")
+c=20
+d=15
+print("Addition:",c+d)
+print("Subtraction:",c-d)
+print("Multiplication:",c*d)
+print("Division:",c/d)
+print("Modulus:",c%d)
+
+print("\nRelational Operators:\n")
+e=30
+f=20
+print("e>f:",e>f)
+print("e>f:",e<f)
+print ("e==f:",e==f)
+print("e!=f:",e!=f)
+
+
+
+OutPut:
+Equation Assignment Operators:
+
+True
+True
+False
+True
+True
+
+Bitwise Operators:
+
+True
+True
+True
+True
+
+Addition using bitwise operators:
+
+True
+True
+
+Subtraction using bitwise operators:
+
+False
+False
+True
+True
+
+Arithmetic Operators:
+
+Addition: 35
+Subtraction: 5
+Subtraction: 5
+Multiplication: 300
+Division: 1.3333333333333333
+Modulus: 5
+
+Relational Operators:
+
+e>f: True
+e>f: False
+e==f: False
+e!=f: True
