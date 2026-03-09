@@ -1,0 +1,93 @@
+Question 4:Write a Program to demonstrate list and related functions in python
+
+
+Algorithm:
+
+Step 1: Start the program.
+
+Step 2: Create a list with some elements.
+
+Step 3: Display the original list.
+
+Step 4: Use append() to add an element at the end of the list.
+
+Step 5: Use insert() to add an element at a specific position.
+
+Step 6: Use remove() to delete an element from the list.
+
+Step 7: Use pop() to remove the last element from the list.
+
+Step 8: Use extend() to add multiple elements to the list.
+
+Step 9: Use sort() to arrange the list elements in order.
+
+Step 10: Use reverse() to reverse the list.
+
+Step 11: Use count() to find the number of occurrences of an element.
+
+Step 12: Use index() to find the position of an element.
+
+Step 13: Display the length of the list using len().
+
+Step 14: End the program.
+
+
+Code:
+
+# Demonstrate various list functions
+
+lst = [10, 20, 30, 40]
+
+print("Original List:", lst)
+
+# append()
+lst.append(50)
+print("After append:", lst)
+
+# insert()
+lst.insert(2, 25)
+print("After insert:", lst)
+
+# remove()
+lst.remove(30)
+print("After remove:", lst)
+
+# pop()
+lst.pop()
+print("After pop:", lst)
+
+# extend()
+lst.extend([60, 70])
+print("After extend:", lst)
+
+# sort()
+lst.sort()
+print("Sorted List:", lst)
+
+# reverse()
+lst.reverse()
+print("Reversed List:", lst)
+
+# count()
+print("Count of 20:", lst.count(20))
+
+# index()
+print("Index of 40:", lst.index(40))
+
+# length of list
+print("Length of list:", len(lst))
+
+
+Output:
+
+Original List: [10, 20, 30, 40]
+After append: [10, 20, 30, 40, 50]
+After insert: [10, 20, 25, 30, 40, 50]
+After remove: [10, 20, 25, 40, 50]
+After pop: [10, 20, 25, 40]
+After extend: [10, 20, 25, 40, 60, 70]
+Sorted List: [10, 20, 25, 40, 60, 70]
+Reversed List: [70, 60, 40, 25, 20, 10]
+Count of 20: 1
+Index of 40: 2
+Length of list: 6
