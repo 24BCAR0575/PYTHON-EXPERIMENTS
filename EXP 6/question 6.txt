@@ -1,0 +1,74 @@
+Question 6: Write a program to demonstrate Dictionary & related functions in Python
+
+
+Algorithm:
+
+Step 1: Start the program.
+
+Step 2: Create a dictionary with some key–value pairs.
+
+Step 3: Display the original dictionary.
+
+Step 4: Access and display a value using its key.
+
+Step 5: Add a new key–value pair to the dictionary.
+
+Step 6: Update an existing value in the dictionary.
+
+Step 7: Remove an element from the dictionary using pop().
+
+Step 8: Display dictionary keys, values, and items using keys(), values(), and items().
+
+Step 9: Find the length of the dictionary using len().
+
+Step 10: End the program.
+
+
+code:
+
+# Program to demonstrate dictionary and related functions
+
+D = {"Name": "Arihant", "Age": 20, "Course": "BCA"}
+
+print("Original Dictionary:", D)
+
+# Access value
+print("Name:", D["Name"])
+
+# Add new element
+D["City"] = "Bangalore"
+print("After adding element:", D)
+
+# Update value
+D["Age"] = 21
+print("After updating Age:", D)
+
+# Remove element
+D.pop("Course")
+print("After removing Course:", D)
+
+# Keys
+print("Keys:", D.keys())
+
+# Values
+print("Values:", D.values())
+
+# Items
+print("Items:", D.items())
+
+# Length of dictionary
+print("Length of dictionary:", len(D))
+
+
+Output:
+
+Original Dictionary: {'Name': 'Arihant', 'Age': 20, 'Course': 'BCA'}
+Name: Arihant
+After adding element: {'Name': 'Arihant', 'Age': 20, 'Course': 'BCA', 'City': 'Bangalore'}
+After updating Age: {'Name': 'Arihant', 'Age': 21, 'Course': 'BCA', 'City': 'Bangalore'}
+After removing Course: {'Name': 'Arihant', 'Age': 21, 'City': 'Bangalore'}
+Keys: dict_keys(['Name', 'Age', 'City'])
+Values: dict_values(['Arihant', 21, 'Bangalore'])
+Items: dict_items([('Name', 'Arihant'), ('Age', 21), ('City', 'Bangalore')])
+Length of dictionary: 3
+
