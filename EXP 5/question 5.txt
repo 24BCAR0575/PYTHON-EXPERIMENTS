@@ -1,0 +1,75 @@
+Question 5: Write a program to demonstrate tuple & related functions in Python.
+
+
+Algorithm:
+
+Step 1: Start the program.
+
+Step 2: Create a tuple with some elements.
+
+Step 3: Display the original tuple.
+
+Step 4: Find the length of the tuple using len().
+
+Step 5: Access elements using indexing.
+
+Step 6: Display a part of the tuple using slicing.
+
+Step 7: Use count() to find the number of occurrences of an element.
+
+Step 8: Use index() to find the position of an element.
+
+Step 9: Perform tuple concatenation and repetition.
+
+Step 10: Find maximum and minimum values using max() and min().
+
+Step 11: End the program.
+
+
+Code:
+
+# Program to demonstrate tuple and related functions
+
+T = (10, 20, 30, 40, 20)
+
+print("Original Tuple:", T)
+
+# Length of tuple
+print("Length of tuple:", len(T))
+
+# Access element using index
+print("Element at index 2:", T[2])
+
+# Slicing
+print("Tuple slice:", T[1:4])
+
+# Count function
+print("Count of 20:", T.count(20))
+
+# Index function
+print("Index of 30:", T.index(30))
+
+# Concatenation
+T2 = (50, 60)
+print("Concatenated Tuple:", T + T2)
+
+# Repetition
+print("Repeated Tuple:", T * 2)
+
+# Max and Min
+print("Maximum value:", max(T))
+print("Minimum value:", min(T))
+
+
+Output: 
+
+Original Tuple: (10, 20, 30, 40, 20)
+Length of tuple: 5
+Element at index 2: 30
+Tuple slice: (20, 30, 40)
+Count of 20: 2
+Index of 30: 2
+Concatenated Tuple: (10, 20, 30, 40, 20, 50, 60)
+Repeated Tuple: (10, 20, 30, 40, 20, 10, 20, 30, 40, 20)
+Maximum value: 40
+Minimum value: 10
