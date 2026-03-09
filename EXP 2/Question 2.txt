@@ -1,0 +1,61 @@
+Question 2: Write a Program to Implement control flow statement and looping statements in python
+
+
+Algorithm:
+
+Step 1: Start the program.
+
+Step 2: Take input from the user for runs scored, balls faced, wickets taken, overs bowled, runs conceded, and number of catches.
+
+Step 3: Calculate the Strike Rate (SR) using the formula:
+SR = (runs / balls) × 100.
+
+Step 4: Print the strike rate.
+
+Step 5: Check the batting performance using conditions:
+
+If runs ≥ 50 and SR ≥ 120, print "Excellent Batsman".
+
+Else if runs ≥ 30 and SR ≥ 100, print "Good Batsman".
+
+Else if runs ≥ 20, print "Average Batsman".
+
+Otherwise print "Poor Batsman".
+
+Step 6: Calculate the Economy Rate (ER) using the formula:
+ER = runs conceded / overs.
+
+Step 7: Print the economy rate.
+
+Step 8: Check the bowling performance:
+
+If wickets ≥ 3 and ER ≤ 6, print "Excellent Bowler".
+
+Else if wickets ≥ 2 and ER ≤ 8, print "Good Bowler".
+
+Else if wickets ≥ 2, print "Average Bowler".
+
+Otherwise print "Poor Bowler".
+
+Step 9: Check the fielding performance based on number of catches.
+
+Step 10: Based on batting and bowling performance, display the overall player performance.
+
+Step 11: End the program.
+
+
+Output:
+
+Enter Runs:20
+Enter Balls:4
+Enter wickets:2
+Enter economy:1
+Enter overs:3
+Enter runs covered1
+Enter catches3
+500.0
+Average Batsman
+0.3333333333333333
+Good Bowler
+Outstanding Fielder
+Needs improvement
