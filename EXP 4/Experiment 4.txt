@@ -1,4 +1,4 @@
-Question 4:Write a Program to demonstrate list and related functions in python
+AIM:Write a Program to demonstrate list and related functions in python
 
 
 Algorithm:
@@ -90,4 +90,5 @@ Sorted List: [10, 20, 25, 40, 60, 70]
 Reversed List: [70, 60, 40, 25, 20, 10]
 Count of 20: 1
 Index of 40: 2
+
 Length of list: 6
