@@ -1,4 +1,4 @@
-Question 3: Write a program to implement various string operations
+AIM: Write a program to implement various string operations
 
 
 Algorithm:
@@ -87,3 +87,4 @@ Contains 'python': False
 Count of letter 'a': 1
 Position of first 'a': 6
 Reversed string: akIRSAS
+
