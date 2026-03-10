@@ -1,4 +1,4 @@
-Question 6: Write a program to demonstrate Dictionary & related functions in Python
+AIM: Write a program to demonstrate Dictionary & related functions in Python
 
 
 Algorithm:
@@ -71,4 +71,5 @@ Keys: dict_keys(['Name', 'Age', 'City'])
 Values: dict_values(['Arihant', 21, 'Bangalore'])
 Items: dict_items([('Name', 'Arihant'), ('Age', 21), ('City', 'Bangalore')])
 Length of dictionary: 3
+
 
