@@ -1,4 +1,4 @@
-Question 1:Demonstrate Various Data Types and Operators in Python
+AIM:Demonstrate Various Data Types and Operators in Python
 
 
 Algorithm
@@ -113,4 +113,5 @@ Relational Operators:
 e>f: True
 e>f: False
 e==f: False
+
 e!=f: True
