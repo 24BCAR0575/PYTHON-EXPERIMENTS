@@ -1,4 +1,4 @@
-Question 2: Write a Program to Implement control flow statement and looping statements in python
+AIM: Write a Program to Implement control flow statement and looping statements in python
 
 
 Algorithm:
@@ -108,4 +108,5 @@ Average Batsman
 Good Bowler
 Outstanding Fielder
 Needs improvement
+
 
