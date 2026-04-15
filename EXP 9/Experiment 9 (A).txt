@@ -1,0 +1,74 @@
+AIM: WAP to implement NUMPY and PANDAS package
+
+
+
+Algorithm:
+
+
+Start.
+
+Import numpy as np and pandas as pd.
+
+Create a NumPy array using np.array().
+
+Perform mathematical operations like mean() and sqrt() on the array.
+
+Define a dictionary containing sample data.
+
+Create a Pandas DataFrame using pd.DataFrame().
+
+Display the full DataFrame and filter specific columns.
+
+Stop.
+
+
+
+Code:
+
+import numpy as np
+import pandas as pd
+
+print("--- NumPy Implementation ---")
+# Create a 1D and 2D array
+arr1 = np.array([1, 2, 3, 4, 5])
+arr2 = np.array([[1, 2], [3, 4]])
+
+print(f"1D Array: {arr1}")
+print(f"Mean of Array: {np.mean(arr1)}")
+print(f"Square Root of Elements: {np.sqrt(arr1)}")
+
+print("\n--- Pandas Implementation ---")
+# Create a dictionary to convert into a DataFrame
+data = {
+    'Name': ['Alice', 'Bob', 'Charlie'],
+    'Age': [25, 30, 35],
+    'City': ['New York', 'London', 'Paris']
+}
+
+df = pd.DataFrame(data)
+
+print("DataFrame Content:")
+print(df)
+print(f"\nAccessing 'Name' Column:\n{df['Name']}")
+
+
+
+Output:
+
+--- NumPy Implementation ---
+1D Array: [1 2 3 4 5]
+Mean of Array: 3.0
+Square Root of Elements: [1.         1.41421356 1.73205081 2.         2.23606798]
+
+--- Pandas Implementation ---
+DataFrame Content:
+      Name  Age      City
+0    Alice   25  New York
+1      Bob   30    London
+2  Charlie   35     Paris
+
+Accessing 'Name' Column:
+0      Alice
+1        Bob
+2    Charlie
+Name: Name, dtype: object
