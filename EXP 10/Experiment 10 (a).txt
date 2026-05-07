@@ -1,0 +1,87 @@
+AIM: WAP to load, clean, and explore data using Python (Pandas).
+
+
+
+
+Algorithm:
+
+Start.
+
+Import the pandas library as pd.
+
+Define a dictionary containing sample data with missing values (None).
+
+Create a Pandas DataFrame using pd.DataFrame().
+
+Display the original data and basic exploration using head() and info().
+
+Check for missing values using isnull().sum().
+
+Clean the data by removing rows with missing values using dropna().
+
+Display the cleaned data and summary statistics using describe().
+
+Stop.
+
+
+
+
+Code:
+
+import pandas as pd
+
+# Creating the dataset with missing values
+data = {
+    "Name": ["A", "B", "C", "D", "E"],
+    "Marks": [80, 75, None, 90, 85],
+    "Age": [20, 21, 19, None, 22]
+}
+
+df = pd.DataFrame(data)
+
+print("Original Data:")
+print(df)
+
+print("\nFirst 5 rows:")
+print(df.head())
+
+print("\nData Info:")
+df.info()
+
+print("\nMissing values:")
+print(df.isnull().sum())
+
+# Data Cleaning
+df_clean = df.dropna()
+
+print("\nCleaned Data:")
+print(df_clean)
+
+print("\nSummary Statistics:")
+print(df_clean.describe())
+
+
+
+
+Original Data:
+  Name  Marks   Age
+0    A   80.0  20.0
+1    B   75.0  21.0
+2    C    NaN  19.0
+3    D   90.0   NaN
+4    E   85.0  22.0
+
+First 5 rows:
+... (DataFrame output) ...
+
+Missing values:
+Name     0
+Marks    1
+Age      1
+dtype: int64
+
+Cleaned Data:
+  Name  Marks   Age
+0    A   80.0  20.0
+1    B   75.0  21.0
+4    E   85.0  22.0

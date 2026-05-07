@@ -1,0 +1,53 @@
+AIM: WAP to implement various types of visualization in Python (Matplotlib).
+
+Algorithm:
+
+Start.
+
+Import matplotlib.pyplot as plt.
+
+Define lists for the categories (names) and their corresponding values (marks).
+
+Create a Bar Chart using plt.bar() and add labels/title.
+
+Create a Line Chart using plt.plot() with markers.
+
+Create a Pie Chart using plt.pie() with percentage formatting.
+
+Use plt.show() after each plot configuration to display the graphs.
+
+Stop.
+
+
+
+
+Code:
+
+import matplotlib.pyplot as plt
+
+# Sample data
+names = ["A", "B", "C", "D"]
+marks = [80, 75, 90, 85]
+
+# 1. Bar Chart Implementation
+plt.bar(names, marks)
+plt.title("Bar Chart - Student Marks")
+plt.xlabel("Students")
+plt.ylabel("Marks")
+plt.show()
+
+# 2. Line Chart Implementation
+plt.plot(names, marks, marker='o')
+plt.title("Line Chart - Student Marks")
+plt.xlabel("Students")
+plt.ylabel("Marks")
+plt.show()
+
+# 3. Pie Chart Implementation
+plt.pie(marks, labels=names, autopct='%1.1f%%')
+plt.title("Pie Chart - Marks Distribution")
+plt.show()
+
+
+
+
